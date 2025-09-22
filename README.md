@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Route;
 use dadirohan\SimpleMath\SimpleMathService;
 
 Route::get('/sum', function(SimpleMathService $math) {
-    return $math->add(3, 4); // returns 15
+    return $math->add(3, 4); 
 });
 
 ```
