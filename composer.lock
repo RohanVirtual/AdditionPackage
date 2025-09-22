@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9c491b8531eec05ba41a11d9276a5749",
+    "content-hash": "19edb765690529f30435f1c44b4cc16d",
     "packages": [
         {
             "name": "brick/math",
@@ -134,6 +134,29 @@
                 }
             ],
             "time": "2023-12-11T17:09:12+00:00"
+        },
+        {
+            "name": "dadirohan/simple-math",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "packages/dadirohan/SimpleMath",
+                "reference": "141746d11fe71fc0246aa00cb25b995be6c79fd1"
+            },
+            "require": {
+                "illuminate/support": "^8.0|^9.0|^10.0",
+                "php": ">=8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "dadirohan\\SimpleMath\\": "src/"
+                }
+            },
+            "description": "A simple Laravel package for adding two numbers",
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "dflydev/dot-access-data",
@@ -8241,9 +8264,18 @@
             "time": "2024-03-03T12:36:25+00:00"
         }
     ],
-    "aliases": [],
+    "aliases": [
+        {
+            "package": "dadirohan/simple-math",
+            "version": "dev-main",
+            "alias": "1.0.0",
+            "alias_normalized": "1.0.0.0"
+        }
+    ],
     "minimum-stability": "stable",
-    "stability-flags": {},
+    "stability-flags": {
+        "dadirohan/simple-math": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

@@ -1,0 +1,14 @@
+{
+  "name": "dadirohan/simple-math",
+  "description": "A simple Laravel package for adding two numbers",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "dadirohan\\SimpleMath\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=8.0",
+    "illuminate/support": "^8.0|^9.0|^10.0"
+  }
+}
